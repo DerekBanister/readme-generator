@@ -1,7 +1,7 @@
-# sdfd
+# README Generator
 
   ## Project Description:
-  dsf
+  generates README
 
 
   ## Table of Contents
@@ -14,7 +14,7 @@
   *[Author](#author)
 
 ## Installation
-sdf
+none
 
 
 ## Usage
@@ -30,9 +30,10 @@ undefined
 
 
 ## Questions
-If you have any questions, contact Derekbanister on GitHub.
+If you have any questions, contact DerekBanister on GitHub.
 
-// License functions will go here
+## License
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Author
 ![Github Profile Picture](https://avatars.githubusercontent.com/u/89547994?v=4)

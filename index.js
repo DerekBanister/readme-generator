@@ -82,8 +82,7 @@ function init() {
             console.log(imageURL)
             // TODO: Create a function to write README file
             fs.writeFile("README.md", generateMarkdown(answers), (err) =>
-            err ? console.error(err) : console.log('Success!')
-      
+            err ? console.error(err) : console.log('Success!'),
           );
         })
     })
