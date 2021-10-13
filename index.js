@@ -51,12 +51,26 @@ const questions = [
     }
 
 ];
+function init() {
+    inquirer.prompt(questions).then(answers => {
+        console.log(answers);
+        //answers logging, questions showing correctly, default's are weird though.
+        //need to use axios to get github username, then response for profile image.
+        //next is writefile.
+    })
+}
+
+
+
+
+
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+
+
 
 // Function call to initialize app
 init();
