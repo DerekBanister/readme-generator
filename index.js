@@ -8,6 +8,11 @@ var generateMarkdown = require ("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     {
+        type: "confirm",
+        message: "Welcome to @DerekBanister's README Generator. Would you like to create a README.md file?",
+        name: "create"
+    },
+    {
         type: "input",
         message: "What is your Github username?",
         name: "username"
@@ -49,11 +54,20 @@ const questions = [
         type: "input",
         message: "Provide examples for testing of this application",
         name: "test"
+    },
+    {
+        //https://choosealicense.com/
+        //https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+        type: "list",
+        message: "Which license would you like to use?",
+        choices: ["MIT", "Apache 2.0", "Mozilla Public 2.0", "GNU GPLv3"],
+        name: "license"
     }
 
 ];
 function init() {
-    inquirer.prompt(questions).then(answers => {
+    inquirer.prompt(questions)
+    .then(answers => {
         console.log(answers);
         //answers logging, questions showing correctly, default's are weird though.
         //need to use axios to get github username, then response for profile image.
@@ -67,11 +81,10 @@ function init() {
             answers.image = imageURL;
             console.log(imageURL)
             // TODO: Create a function to write README file
-            fs.writeFile("README.md", generateMarkdown(answers), function(err){
-                if (err){
-                    throw err;
-                }
-            })
+            fs.writeFile("README.md", generateMarkdown(answers), (err) =>
+            err ? console.error(err) : console.log('Success!')
+      
+          );
         })
     })
 }
