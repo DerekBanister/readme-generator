@@ -34,6 +34,9 @@ function generateMarkdown(data) {
   -[License](#license)
   -[Author](#author)
 
+## License
+${licenseBadge}
+
 ## Installation
 ${data.install}
 
@@ -51,10 +54,8 @@ ${data.test}
 
 
 ## Questions
-If you have any questions, contact ${data.username} on GitHub.
+If you have any questions, contact ${data.email}.
 
-## License
-${licenseBadge}
 
 ## Author
 ![Github Profile Picture](${data.image})

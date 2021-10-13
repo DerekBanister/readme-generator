@@ -53,6 +53,11 @@ const questions = [
         name: "test"
     },
     {
+        type: "input",
+        message: "Enter your email in case anybody would like to contact you regarding your project",
+        name: "email"
+    },
+    {
         //https://choosealicense.com/
         //https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
         type: "list",
@@ -78,7 +83,7 @@ function init() {
             answers.image = imageURL;
             console.log(imageURL)
             // TODO: Create a function to write README file
-            fs.writeFile("README.md", generateMarkdown(answers), (err) =>
+            fs.writeFile("README-demo.md", generateMarkdown(answers), (err) =>
             err ? console.error(err) : console.log('Success!'),
           );
         })
