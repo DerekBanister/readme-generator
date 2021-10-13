@@ -35,20 +35,17 @@ const questions = [
     {
         type: "input",
         message: "What steps are needed to install your project?",
-        name: "install",
-        default: "none"
+        name: "install"
     },
     {
         type: "input",
         message: "Write instructions for how to use your project",
-        name: "use",
-        default: "none"
+        name: "use"
     },
     {
         type: "input",
         message: "Enter the names of any contributors that helped with your project",
-        name: "contribute",
-        default: "none",
+        name: "contribute"
     },
     {
         type: "input",
@@ -89,43 +86,3 @@ function init() {
 }
 // Function call to initialize app
 init();
-
-
-
-//response from axios call
-// data: {
-//     login: 'DerekBanister',
-//     id: 89547994,
-//     node_id: 'MDQ6VXNlcjg5NTQ3OTk0',
-//     avatar_url: 'https://avatars.githubusercontent.com/u/89547994?v=4',
-//     gravatar_id: '',
-//     url: 'https://api.github.com/users/DerekBanister',
-//     html_url: 'https://github.com/DerekBanister',
-//     followers_url: 'https://api.github.com/users/DerekBanister/followers',
-//     following_url: 'https://api.github.com/users/DerekBanister/following{/other_user}',
-//     gists_url: 'https://api.github.com/users/DerekBanister/gists{/gist_id}',
-//     starred_url: 'https://api.github.com/users/DerekBanister/starred{/owner}{/repo}',
-//     subscriptions_url: 'https://api.github.com/users/DerekBanister/subscriptions',
-//     organizations_url: 'https://api.github.com/users/DerekBanister/orgs',
-//     repos_url: 'https://api.github.com/users/DerekBanister/repos',
-//     events_url: 'https://api.github.com/users/DerekBanister/events{/privacy}',
-//     received_events_url: 'https://api.github.com/users/DerekBanister/received_events',
-//     type: 'User',
-//     site_admin: false,
-//     name: 'Derek Banister',
-//     company: null,
-//     blog: 'https://derekbanister.github.io/portfolio-two/',
-//     location: 'Bay Area, CA',
-//     email: null,
-//     hireable: true,
-//     bio: 'Aspiring full stack web developer currently studying at UC Berkeley Extension coding boot camp.',
-//     twitter_username: null,
-//     public_repos: 18,
-//     public_gists: 0,
-//     followers: 12,
-//     following: 10,
-//     created_at: '2021-08-25T19:53:55Z',
-//     updated_at: '2021-10-12T04:15:48Z'
-//   }
-
-

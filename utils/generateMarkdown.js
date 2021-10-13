@@ -26,24 +26,24 @@ function generateMarkdown(data) {
 
 
   ## Table of Contents
-  *[Installation](#install)
-  *[Usage](#usage)
-  *[Contributors](#contributors)
-  *[Test](#test)
-  *[Questions](#questions)
-  *[License](#license)
-  *[Author](#author)
+  -[Installation](#install)
+  -[Usage](#usage)
+  -[Contributors](#contributors)
+  -[Test](#test)
+  -[Questions](#questions)
+  -[License](#license)
+  -[Author](#author)
 
 ## Installation
 ${data.install}
 
 
 ## Usage
-${data.usage}
+${data.use}
 
 
 ## Contributors
-${data.contributors}
+${data.contribute}
 
 
 ## Test
