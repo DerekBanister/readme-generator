@@ -10,7 +10,7 @@
 * [Javascript](https://www.javascript.com/)
 * [Node.JS](https://nodejs.org/en/)
 * [Axios](https://axios-http.com/docs/intro)
-* [Inquirer](https://www.npmjs.com/package/inquirer)
+* [NPM Inquirer](https://www.npmjs.com/package/inquirer)
 
 
 ## Authors

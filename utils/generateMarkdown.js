@@ -54,6 +54,7 @@ ${data.test}
 
 
 ## Questions
+You can checkout my GitHub here: https://github.com/${data.username};
 If you have any questions, contact ${data.email}.
 
 
