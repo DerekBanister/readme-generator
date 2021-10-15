@@ -1,7 +1,7 @@
-# README Generator
+# ReadMe Generator
 
   ## Project Description:
-  This project generates a quality README for the user
+  Generates a quality README for the user
 
 
   ## Table of Contents
@@ -17,19 +17,19 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
-You need to have visual studio code or any equivalent, and Node.JS installed aswell
+VSCode, Node.JS
 
 
 ## Usage
-Open my file in vscode, then in your terminal/gitbash aswell. Run node index.js and fill out the prompts to generate your README.md file.
+..
 
 
 ## Contributors
-There were none
+None
 
 
 ## Test
-There will be a video attached to this README detailing testing
+Testing will be attached in video format
 
 
 ## Questions

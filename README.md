@@ -2,10 +2,9 @@
 
 * This application generates a quality README based on user inputs from the command line using Node.JS.
 
-[Application in action](https://www.youtube.com/watch?v=fr3YWcSih8w)
+[Application in action](https://www.youtube.com/watch?v=KmUDu_6x1t8)
 
 ## Built With
-
 
 * [Javascript](https://www.javascript.com/)
 * [Node.JS](https://nodejs.org/en/)
